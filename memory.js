@@ -75,7 +75,7 @@ function handleCardClick(e) {
         card2 = currentCard === card1 ? null : currentCard; 
     };
 
-    if ((card1 && card2) === true) {
+    if (card1 && card2) {
         noClicking = true;
 
         let color1 = card1.className;
